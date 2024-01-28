@@ -40,5 +40,24 @@ show options
 
 ## TP
 
+### Mise en place coté cible (metasploitable)
+
+Depuis votre machine Debian, installez Docker
+
+apt update
+apt install docker.ce
+
+Puis téléchargez l'image suivante (disponible sous AMD64 et ARM)
+
+docker run --name vsftpd-2.3.4 -it clintmint/vsftpd-2.3.4:1.0 sh -c "start-vsftpd && sh"
+
+Si le conteneur est bien lancé, vous aurez cet intitulé en début de prompt:
+
+vsftpd-2.3.4
+
+ça vous donne idée de la faille...
+
+### Coté KALI
+
 
  
