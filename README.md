@@ -79,9 +79,9 @@ vsftpd-2.3.4
 
 ça vous donne idée de la faille... Sur cette machine on ne touche plus à rien.
 
-### Coté KALI
+### L'attaque
 
-Lancez la console metasploit et tentez de faire une recherche sur vsftpd. Il vous faut comprendre comment lancer l'exploit, indiquer les infos du payload pour que ça puisse fonctionner...
+Lancez la console metasploit depuis Kali et tentez de faire une recherche sur vsftpd. Il vous faut comprendre comment lancer l'exploit, indiquer les infos du payload pour que ça puisse fonctionner...
 
 ```
 search vsftp
