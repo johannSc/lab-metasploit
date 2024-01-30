@@ -62,7 +62,7 @@ Depuis votre machine Debian, installez Docker:
 
 ```
 apt update
-apt install docker.ce
+apt install docker.io
 ```
 
 Puis téléchargez l'image suivante (disponible sous AMD64 et ARM) et exécurtez la:
