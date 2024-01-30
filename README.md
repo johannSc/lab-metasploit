@@ -68,7 +68,7 @@ apt install docker.io
 Puis téléchargez l'image suivante (disponible sous AMD64 et ARM) et exécurtez la:
 
 ```
-docker run --name vsftpd-2.3.4 -it clintmint/vsftpd-2.3.4:1.0 sh -c "start-vsftpd && sh"
+docker run --name vsftpd-2.3.4 -p21:21 -it clintmint/vsftpd-2.3.4:1.0 sh -c "start-vsftpd && sh"
 ```
 
 Si le conteneur est bien lancé, vous aurez cet intitulé en début de prompt:
