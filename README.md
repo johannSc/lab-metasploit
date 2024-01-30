@@ -52,13 +52,7 @@ show options
 
 ### Mise en place coté cible (metasploitable)
 
-Pensez tout d'abord à prendre l'ip de la machine Debian:
-
-```
-ip a
-```
-
-Depuis votre machine Debian, installez Docker:
+Depuis votre machine Kali, installez Docker:
 
 ```
 apt update
@@ -77,7 +71,7 @@ Si le conteneur est bien lancé, vous aurez cet intitulé en début de prompt:
 vsftpd-2.3.4
 ```
 
-ça vous donne idée de la faille... Sur cette machine on ne touche plus à rien.
+ça vous donne idée de la faille... Pensez à prendre l'ip du conteneur Docker, vous en aurez besoin sous metasploit.
 
 ### L'attaque
 
